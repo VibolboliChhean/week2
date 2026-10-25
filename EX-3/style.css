@@ -1,0 +1,21 @@
+/* TODO */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    border: 7px solid rgb(200, 3, 200);
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(252, 2, 252);
+    color: white;
+    transition: 0.4s;
+}
+button:hover{
+    border: 7px solid rgb(98, 0, 98);
+    background-color: purple;
+    cursor: pointer;
+}
